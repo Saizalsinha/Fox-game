@@ -15,7 +15,7 @@ jobs:
         working-directory: game-code
         run: |
           npm install
-          npm run build -- --public-url /Fox-game/
+          npm run build
       - name: Deploy site to gh-pages branch
         uses: crazy-max/ghaction-github-pages@v1.4.0
         env:
